@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
 from io import BytesIO
-API_KEY = "a5ccec85eb6bd16f843b476fcb77e34d"
+API_KEY = "api key"
 API_URL = "https://api.openweathermap.org/data/2.5/weather"
 def convert_temp(kelvin, unit):
     if unit == "C":
